@@ -1,0 +1,7 @@
+<h1>Estos son todos los usuarios registrados hata ahora</h1>
+
+<% @users.each do |u| %>
+    <%= u.name %><%= link_to " edit", welcome_actualizar_path(id: u.id) %><br>
+<% end %>
+
+<p>Gracias por participar</p>

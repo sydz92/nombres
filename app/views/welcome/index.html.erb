@@ -1,0 +1,12 @@
+<h1>Esto es una prueba,</h1>
+
+<p><%= @msj %></p>
+
+<form action="/welcome/nombre">
+	<h2>Ingrese su nombre:</h2>
+	<input type="input" name="name">
+	<input type="submit" value="Guardar">
+</form>
+
+<p>Para ver los usuarios existentes haga click <%= link_to "aqui", "/welcome/recuperar" %></p>
+
